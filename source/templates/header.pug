@@ -1,0 +1,19 @@
+header#header
+    header
+        .container
+            .header-top
+                .logo
+                    a(href="#"): img(src="img/logo.png")
+                .slogan
+                    span Тут такой-то слоган
+                .contact
+                    .email
+                        span
+                            a(href="mailto:email@gmail.com") email@gmail.com
+            .header-bottom
+                .banner-slider
+                    .swiper-container
+                        .swiper-wrapper
+                            - for (var x = 0; x < 3; x++)
+                                .swiper-item
+                                    a(href="#"): img(src="img/maxresdefault.jpg")

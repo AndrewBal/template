@@ -1,0 +1,13 @@
+footer#footer
+    .container
+        .footer-content
+            .logo
+                a(href="#"): img(src="img/logo.png")
+            .nav-menu
+                ul
+                    each val, index in ['zero', 'one', 'two']
+                        li= index + ': ' + val
+            .contact
+                .email
+                    span
+                        a(href="mailto:email@gmail.com") email@gmail.com
